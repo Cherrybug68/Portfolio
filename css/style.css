@@ -15,8 +15,13 @@ Primary style
 
 body {
   color: #000000;
-  background-color: #ffffff;
   font-family: 'Ubuntu', sans-serif;
+  /*background-color: #ece8c5;*/
+  background: #d6b566; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(#ffffff, #ffffff, #d6b566); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(#ffffff, #ffffff, #d6b566); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(#ffffff, #ffffff, #d6b566); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(#ffffff, #ffffff, #d6b566); /* Standard syntax */
 }
 
 a {
@@ -350,7 +355,7 @@ Portfolio Projects
   background-image: url(../img/Plan_Tastic.jpg);
 }
 .cd-3d-portfolio .projects .row > li.project-6 .project-image::before {
-  background-image: url(../img/buttons_mouse.jpg);
+  background-image: url(../img/buttons_focal_image.jpg);
 }
 .cd-3d-portfolio .projects .row > li.project-7 .project-image::before {
   background-image: url(../img/Covingtonw_Hat.jpg);
@@ -615,6 +620,20 @@ Additional Styling
 
 .sampleImages img {
   margin-top: -50px;
+}
+
+.contactLinks {
+  text-align: center;
+  margin-top: -30px;
+  padding-bottom: 20px;
+
+}
+
+.contactLinks a {
+  font-size: 14px;
+  font-style: italic;
+  text-decoration: underline;
+  margin: 10px;
 }
 
 /* -------------------------------- 
